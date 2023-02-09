@@ -14,7 +14,7 @@ pub use mint;
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 
-mod regs;
+pub mod regs;
 #[cfg(feature = "std")]
 mod std;
 
